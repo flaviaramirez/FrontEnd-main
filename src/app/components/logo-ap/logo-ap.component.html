@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank"><img
+                src="../../../assets/APLogo2.png" onmouseover="this.src='../../../assets/APLogo.png'"  onmouseout="this.src='../../../assets/APLogo2.png'" id="logoAP"></a>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/flaviagiselaramirez/" target="_blank"><img
+                    src="../../../assets/facebook2.png" onmouseover="this.src='../../../assets/facebook.png'"  onmouseout="this.src='../../../assets/facebook2.png'" id="facebook"></a>
+            <a href="https://www.instagram.com/la_flavita87/" target="_blank"><img src="../../../assets/instagram2.png" onmouseover="this.src='../../../assets/instagram.png'"  onmouseout="this.src='../../../assets/instagram2.png'"
+                    id="instagram"></a>
+            <a href="https://www.linkedin.com/in/flavia-ram%C3%ADrez-b187a973/" target="_blank"><img
+                    src="../../../assets/linkedin2.png" onmouseover="this.src='../../../assets/linkedin.png'"  onmouseout="this.src='../../../assets/linkedin2.png'" id="linkedin"></a>
+            <a href="https://twitter.com/la_flavita" target="_blank"><img src="../../../assets/twitter2.png"
+                onmouseover="this.src='../../../assets/twitter.png'"  onmouseout="this.src='../../../assets/twitter2.png'" id="twitter"></a>
+            <button type="button" class="btn btn-outline-dark" (click)="login()" *ngIf="!isLogged">Login</button>
+            <button type="button" class="btn btn-outline-dark" (click)="onLogOut()" *ngIf="isLogged">Logout</button>
+        </div>
+    </div>
+</div>
