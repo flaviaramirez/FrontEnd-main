@@ -7,7 +7,7 @@ import { Cursos } from '../model/cursos';
   providedIn: 'root'
 })
 export class CursosService {
-  URL='http://localhost:8080/cursos/';
+  URL='https://flaviaramirez.herokuapp.com/cursos/';
 
   constructor(private httpClient : HttpClient) { }
 
